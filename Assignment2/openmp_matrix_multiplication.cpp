@@ -49,7 +49,7 @@ int main(){
 		}
 	}
 	time(&end);
-	cout<<"Diff - "<<difftime(end,start)<<endl;
+	cout<<"Time taken for matrix multiplication (serial way)- "<<difftime(end,start)<<endl;
 	/*for(int i=0; i<x; i++){
 		for(int j=0; j<z; j++){
 			cout<<matrix3[i][j]<<" ";
@@ -66,7 +66,7 @@ int main(){
 		}
 	}
 	time(&end);
-	cout<<"Diff 2"<<difftime(end, start)<<endl;
+	cout<<"Time taken for matrix multiplication (parallel way)-"<<difftime(end, start)<<endl;
 
 
 
